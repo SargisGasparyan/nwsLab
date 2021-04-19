@@ -1,0 +1,39 @@
+.allDiv {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav li a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #cbb1a2;
+  font-size: 24px;
+}
+nav li {
+  list-style: none;
+  display: flex;
+  display: inline-flex;
+}
+.h2 {
+  width: 191px;
+}
+h2 {
+  font-size: 48px;
+}
+
+.active-item {
+  color: #8964d7;
+}
+
+@media (max-width: 670px) {
+  .allDiv {
+    flex-wrap: wrap;
+  }
+
+  .divText,
+  .divNav {
+    width: 100%;
+    text-align: initial;
+  }
+}
